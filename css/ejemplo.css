@@ -1,47 +1,52 @@
 *{
-margin: 0;
-padding:0;
+    margin: 0;
+    padding:0;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 /*--------------------------*/
 .titulo{
     text-align: center;
-    font-family: sans-serif;
     margin-top: 30px;
     color: brown;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 .titulo2{
     text-align: center;
-    font-family: sans-serif;
     margin-top: 40px;
     font-size: 65px;
-    color: chartreuse;
+    color: burlywood;
     transition: 1s;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /*--------------------------*/
 .caja{
     width: 300px;
-    height: 400px;
-    background-color: blueviolet;
+    height: 300px;
+    background-color: mediumaquamarine;
     margin: auto;
     margin-top: 30px;
+    transition: 1s;
 }
 .caja2{
+    background-color: cornflowerblue;
     height: 300px;
-    transition: 1s;
+    transition: 5s;
+    border-radius: 100%;
+
 }
 
 /*--------------------------*/
 .boton{
     width: 100px;
     height: 25px;
-    background-color: chartreuse;
     margin: auto;
     margin-top: 20px;
     text-align: center;
     padding: 5px;
     font-size: 20px;
-    font-family: sans-serif;
     cursor: pointer;
+    border: 2px solid black;
 }
